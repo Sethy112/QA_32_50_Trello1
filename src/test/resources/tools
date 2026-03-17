@@ -1,0 +1,8 @@
+git add .
+git commit -m "run smoke tests"
+git push origin master
+
+git add .
+git commit -m "add github actions"
+git push origin master
+

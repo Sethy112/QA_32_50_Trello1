@@ -1,0 +1,78 @@
+11:47:58.616 [Test worker] INFO  manager.AppManager - Start testing with method-->loginPositiveTest
+11:47:58.619 [Test worker] INFO  utils.TestNGListener - [TestClass name=class tests.LoginTest]Start testing-->loginPositiveTest
+11:47:58.620 [Test worker] INFO  manager.AppManager - LOgin test with Usera0538037302@gmail.com  Qwertyzx123QA@
+11:47:58.623 [Test worker] INFO  utils.WDListener - After Gethttps://trello.com/
+11:47:59.726 [Test worker] INFO  utils.WDListener - BeforeGet-->https://trello.com/
+11:47:59.775 [Test worker] INFO  utils.WDListener - Before clicka
+11:48:01.942 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:02.009 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:02.611 [Test worker] INFO  utils.WDListener - Before clickinput
+11:48:02.655 [Test worker] INFO  utils.WDListener - After clickinput
+11:48:02.724 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:02.802 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:05.627 [Test worker] INFO  utils.TestNGListener - [TestClass name=class tests.LoginTest]Test successloginPositiveTest
+11:48:05.972 [Test worker] INFO  manager.AppManager - Stop testing with methodloginPositiveTest
+11:48:07.091 [Test worker] INFO  manager.AppManager - Start testing with method-->changeProfilePhoto
+11:48:07.097 [Test worker] INFO  utils.WDListener - After Gethttps://trello.com/
+11:48:08.621 [Test worker] INFO  utils.WDListener - BeforeGet-->https://trello.com/
+11:48:08.641 [Test worker] INFO  utils.WDListener - Before clicka
+11:48:10.773 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:10.840 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:11.431 [Test worker] INFO  utils.WDListener - Before clickinput
+11:48:11.470 [Test worker] INFO  utils.WDListener - After clickinput
+11:48:11.536 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:11.622 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:11.622 [Test worker] INFO  utils.TestNGListener - [TestClass name=class tests.ChangeProfilePhoto]Start testing-->changeProfilePhoto
+11:48:16.687 [Test worker] INFO  utils.WDListener - Before clickspan
+11:48:16.752 [Test worker] INFO  utils.WDListener - After clickspan
+11:48:21.828 [Test worker] INFO  utils.WDListener - Before clicka
+11:48:28.641 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:28.848 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:28.971 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:32.554 [Test worker] INFO  utils.TestNGListener - [TestClass name=class tests.ChangeProfilePhoto]Test successchangeProfilePhoto
+11:48:32.897 [Test worker] INFO  manager.AppManager - Stop testing with methodchangeProfilePhoto
+11:48:33.824 [Test worker] INFO  manager.AppManager - Start testing with method-->createNewBoardPositiveTest
+11:48:33.825 [Test worker] INFO  utils.WDListener - After Gethttps://trello.com/
+11:48:34.921 [Test worker] INFO  utils.WDListener - BeforeGet-->https://trello.com/
+11:48:34.941 [Test worker] INFO  utils.WDListener - Before clicka
+11:48:36.988 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:37.052 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:37.681 [Test worker] INFO  utils.WDListener - Before clickinput
+11:48:37.728 [Test worker] INFO  utils.WDListener - After clickinput
+11:48:37.795 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:37.880 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:37.881 [Test worker] INFO  utils.TestNGListener - [TestClass name=class tests.BoardTests]Start testing-->createNewBoardPositiveTest
+11:48:40.793 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:40.876 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:41.621 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:41.668 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:47.200 [Test worker] INFO  utils.TestNGListener - [TestClass name=class tests.BoardTests]Test successcreateNewBoardPositiveTest
+11:48:47.550 [Test worker] INFO  manager.AppManager - Stop testing with methodcreateNewBoardPositiveTest
+11:48:48.442 [Test worker] INFO  manager.AppManager - Start testing with method-->deleteBoardPositiveTest
+11:48:48.442 [Test worker] INFO  utils.WDListener - After Gethttps://trello.com/
+11:48:49.561 [Test worker] INFO  utils.WDListener - BeforeGet-->https://trello.com/
+11:48:49.582 [Test worker] INFO  utils.WDListener - Before clicka
+11:48:51.682 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:51.741 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:52.407 [Test worker] INFO  utils.WDListener - Before clickinput
+11:48:52.445 [Test worker] INFO  utils.WDListener - After clickinput
+11:48:52.511 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:52.593 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:55.363 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:55.432 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:56.180 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:48:56.225 [Test worker] INFO  utils.WDListener - After clickbutton
+11:48:56.226 [Test worker] INFO  utils.TestNGListener - [TestClass name=class tests.DeleteBoardTests]Start testing-->deleteBoardPositiveTest
+11:49:01.647 [Test worker] INFO  utils.WDListener - Before clickspan
+11:49:01.732 [Test worker] INFO  utils.WDListener - After clickspan
+11:49:02.038 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:49:02.075 [Test worker] INFO  utils.WDListener - After clickbutton
+11:49:02.101 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:49:02.142 [Test worker] INFO  utils.WDListener - After clickbutton
+11:49:09.402 [Test worker] INFO  utils.WDListener - Before clickspan
+11:49:09.495 [Test worker] INFO  utils.WDListener - After clickspan
+11:49:14.536 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:49:14.571 [Test worker] INFO  utils.WDListener - After clickbutton
+11:49:17.602 [Test worker] INFO  utils.WDListener - Before clickbutton
+11:49:17.642 [Test worker] INFO  utils.TestNGListener - [TestClass name=class tests.DeleteBoardTests]Test successdeleteBoardPositiveTest
+11:49:17.992 [Test worker] INFO  manager.AppManager - Stop testing with methoddeleteBoardPositiveTest
