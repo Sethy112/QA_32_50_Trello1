@@ -3,13 +3,17 @@ package tests;
 import dto.User;
 import manager.AppManager;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.BoardsPage;
 import pages.Homepage;
 import pages.LoginPage;
+import utils.TestNGListener;
+@Listeners(TestNGListener.class)
 
 public class LoginTest extends AppManager {
-    @Test
+
+    @Test(groups = "smoke")
     public void loginPositiveTest(){
         User user = User.builder()
                 .email("a0538037302@gmail.com")
@@ -20,7 +24,5 @@ public class LoginTest extends AppManager {
         homepage.clickBtnLogin();
         new LoginPage(getDriver()).login(user);
         Assert.assertTrue(new BoardsPage(getDriver()).validateUrl("boards"));
-
-
     }
 }

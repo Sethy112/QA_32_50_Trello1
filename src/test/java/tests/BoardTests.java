@@ -5,8 +5,12 @@ import dto.Board;
 import dto.User;
 import manager.AppManager;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.*;
+import utils.TestNGListener;
+
+
 
 public class BoardTests extends AppManager {
 
@@ -21,11 +25,11 @@ public class BoardTests extends AppManager {
         new LoginPage(getDriver()).login(user);
     }
 
-    @Test
+    @Test(groups = "smoke")
     public void createNewBoardPositiveTest(){
-        Board board = Board.builder().boardTitle("2258").build();
+        Board board = Board.builder().boardTitle("1115").build();
         new BoardsPage(getDriver()).createNewBoard(board);
-        new MyBoardPage(getDriver()).validateBoardName("2258",5);
+        new MyBoardPage(getDriver()).validateBoardName("1115",5);
     }
 
     @Test

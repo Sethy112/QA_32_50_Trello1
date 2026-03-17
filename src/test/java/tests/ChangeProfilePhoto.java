@@ -4,20 +4,23 @@ import dto.User;
 import manager.AppManager;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import pages.AtlassianProfilePage;
 import pages.BoardsPage;
 import pages.Homepage;
 import pages.LoginPage;
+import utils.TestNGListener;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
+@Listeners(TestNGListener.class)
 
 public class ChangeProfilePhoto extends AppManager {
     BoardsPage boardsPage;
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public  void login(){
         User user = User.builder()
                 .email("a0538037302@gmail.com")
@@ -29,7 +32,7 @@ public class ChangeProfilePhoto extends AppManager {
         boardsPage = new BoardsPage(getDriver());
 
     }
-    @Test
+    @Test(groups = "smoke")
     public void changeProfilePhoto(){
         boardsPage.openMyAccount();
         List<String> tabs =new ArrayList<>(getDriver().getWindowHandles());

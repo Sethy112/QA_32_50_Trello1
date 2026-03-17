@@ -17,8 +17,15 @@ dependencies  {
     annotationProcessor 'org.projectlombok:lombok:1.18.28'
     testCompileOnly 'org.projectlombok:lombok:1.18.28'
     testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
+
 }
 
 test {
     useTestNG()
+}
+
+task smoketests(type:Test){
+    useTestNG(){
+        suites 'src/test/resources/smoletests.xml'
+    }
 }
